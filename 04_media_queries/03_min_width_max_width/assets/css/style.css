@@ -1,0 +1,60 @@
+body {
+  background: #f7c8f7;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 30%;
+  text-align: center;
+  font-size: 90px;
+}
+
+.celular {
+  font-size: 30px;
+  text-shadow: 0 0 10px #3d3c3c;
+}
+
+.tablet {
+  display: none;
+  font-size: 60px;
+  text-shadow: 0 0 10px #3d3c3c;
+}
+
+.desktop {
+  display: none;
+  text-shadow: 0 0 10px #b3aeae;
+}
+
+@media screen and (min-width: 301px) and (max-width: 900px) {
+  body {
+    background: #137013;
+  }
+  .tablet {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .celular {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  body {
+    background: #211370;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .celular {
+    display: none;
+  }
+}
