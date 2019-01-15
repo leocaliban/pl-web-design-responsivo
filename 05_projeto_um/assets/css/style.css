@@ -256,28 +256,56 @@ a:hover {
     background: none;
   }
 
-  .principal{
-      width: 60%;
-      float: left;
-      background: transparent;
+  .principal {
+    width: 60%;
+    float: left;
+    background: transparent;
   }
 
-  .principal header{
-      background: #3e4095;
-      color: #ffffff;
-      margin-bottom: 0.3em;
+  .principal header {
+    background: #3e4095;
+    color: #ffffff;
+    margin-bottom: 0.3em;
   }
 
-  .bloco{
-      padding: 0 .5em;
-      background: rgba(255, 255, 0, 0.7);
+  .bloco {
+    padding: 0 0.5em;
+    background: rgba(255, 255, 0, 0.7);
   }
-  .auxiliar{
-      width: 25%;
-      padding: 0 0.4em;
+  .auxiliar {
+    width: 25%;
+    padding: 0 0.4em;
   }
 
-  .navegacao{
-      width: 15%;
+  .navegacao {
+    width: 15%;
+  }
+}
+
+@media all and (min-width: 75em) {
+  .tudo {
+    max-width: 100em;
+    margin: 0 auto;
+  }
+
+  .principal {
+    width: 57%;
+    margin: 0 1.5%;
+  }
+
+  .principal header {
+    border-radius: 0.5em;
+  }
+  
+  .bloco {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-width: 1em;
+    border-bottom-color: #00a859;
+    margin-bottom: 1em;
+  }
+
+  .rodape {
+    line-height: 3em;
   }
 }
