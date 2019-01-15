@@ -1,0 +1,68 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   MODIFICADO
+*/
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ul,
+li,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+body {
+  font: 100%/1.4 sans-serif;
+  background-color: #cccccc;
+}
+.topo {
+  background-color: #3e4095;
+  color: #ffffff;
+}
+
+.navegacao {
+  background-color: #00a859;
+}
+
+.principal {
+  background-color: #dfcc29;
+}
+
+.auxiliar {
+  background-color: #ffffff;
+}
+
+.rodape {
+  background-color: #3e4095;
+  color: #ffffff;
+}
