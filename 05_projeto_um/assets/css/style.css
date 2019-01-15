@@ -199,46 +199,85 @@ a:hover {
     background-position: left top;
   }
 
-  .topo{
-      background: transparent;
+  .topo {
+    background: transparent;
   }
 
-  .topo h1{
-      color: #00a859;
-      font-size: 250%;
-      margin: 0.6em 0;
-      text-shadow: 3px 3px 2px #666666;
+  .topo h1 {
+    color: #00a859;
+    font-size: 250%;
+    margin: 0.6em 0;
+    text-shadow: 3px 3px 2px #666666;
   }
 
-  .main-page{
-      background: #00a859;
+  .main-page {
+    background: #00a859;
   }
 
-  .principal{
-      width: 70%;
-      padding: 0 .5em;
-      float: right;
+  .principal {
+    width: 70%;
+    padding: 0 0.5em;
+    float: right;
   }
 
-  .auxiliar{
-      width: 70%;
-      float: right;
+  .auxiliar {
+    width: 70%;
+    float: right;
   }
 
-  .navegacao{
-      float: left;
-      width: 30%;
-      height: 20em;
+  .navegacao {
+    float: left;
+    width: 30%;
+    height: 20em;
   }
 
-  .navegacao li:first-child{
-      border-top: 1px solid #ffffff;
+  .navegacao li:first-child {
+    border-top: 1px solid #ffffff;
   }
 
-  .menu-icon{
-      text-indent: -1000em;
-      height: 0;
-      line-height: 0;
+  .menu-icon {
+    text-indent: -1000em;
+    height: 0;
+    line-height: 0;
   }
 }
 
+@media all and (min-width: 62.5em) {
+  body {
+    background-image: url("../images/bg1200x1200cap3.jpg");
+    background-size: cover;
+  }
+  .topo h1 {
+    font-size: 480%;
+    margin: 0.8em 0;
+  }
+
+  .main-page {
+    background: none;
+  }
+
+  .principal{
+      width: 60%;
+      float: left;
+      background: transparent;
+  }
+
+  .principal header{
+      background: #3e4095;
+      color: #ffffff;
+      margin-bottom: 0.3em;
+  }
+
+  .bloco{
+      padding: 0 .5em;
+      background: rgba(255, 255, 0, 0.7);
+  }
+  .auxiliar{
+      width: 25%;
+      padding: 0 0.4em;
+  }
+
+  .navegacao{
+      width: 15%;
+  }
+}
