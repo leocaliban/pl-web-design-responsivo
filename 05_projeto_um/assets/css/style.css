@@ -48,6 +48,11 @@ body {
 .topo {
   background-color: #3e4095;
   color: #ffffff;
+  font-size: 70%;
+  line-height: 2.5em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .navegacao {
@@ -58,6 +63,15 @@ body {
   background-color: #dfcc29;
 }
 
+.principal header, .auxiliar h1{
+    text-align: center;
+    color: #3e4095;
+}
+.bloco, .auxiliar article{
+    border-bottom: 1px solid #3e4095;
+    padding: 0.8em 0;
+}
+
 .auxiliar {
   background-color: #ffffff;
 }
@@ -65,4 +79,50 @@ body {
 .rodape {
   background-color: #3e4095;
   color: #ffffff;
+  text-align: center;
 }
+
+*,
+*::before,
+::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cf::before,
+.cf::after {
+  content: "";
+  display: table;
+}
+
+.cf::after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 140%;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+p{
+    margin: 0.6em 0;
+}
+
+p:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0.6em;
+}
+
