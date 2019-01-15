@@ -191,3 +191,54 @@ a:hover {
 .navegacao li a:active {
   color: #3e4095;
 }
+
+@media all and (min-width: 30em) {
+  body {
+    background-image: url("../images/bg1000x80cap3.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  .topo{
+      background: transparent;
+  }
+
+  .topo h1{
+      color: #00a859;
+      font-size: 250%;
+      margin: 0.6em 0;
+      text-shadow: 3px 3px 2px #666666;
+  }
+
+  .main-page{
+      background: #00a859;
+  }
+
+  .principal{
+      width: 70%;
+      padding: 0 .5em;
+      float: right;
+  }
+
+  .auxiliar{
+      width: 70%;
+      float: right;
+  }
+
+  .navegacao{
+      float: left;
+      width: 30%;
+      height: 20em;
+  }
+
+  .navegacao li:first-child{
+      border-top: 1px solid #ffffff;
+  }
+
+  .menu-icon{
+      text-indent: -1000em;
+      height: 0;
+      line-height: 0;
+  }
+}
+
