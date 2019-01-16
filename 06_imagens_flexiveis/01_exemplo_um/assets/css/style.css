@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+  width: 30%;
+}
+
+img {
+  max-width: 100%;
+}
