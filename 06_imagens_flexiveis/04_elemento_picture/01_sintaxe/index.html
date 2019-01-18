@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Imagens flexíveis</title>
+    <meta name='description' content='Prática de imagem flexível' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css' />
+</head>
+
+<body>
+    <!-- Baseado na quantidade de pixels da tela do usuário -->
+    <picture>
+        <source srcset="assets/images/fundo-320.jpg 1x, assets/images/fundo-700.jpg 2x, assets/images/fundo-1000.jpg 4x"/>
+        <img src="assets/images/fundo-320.jpg" alt="Logo do site" width="600" height="400"/>
+    </picture>
+    
+</body>
+
+</html>
