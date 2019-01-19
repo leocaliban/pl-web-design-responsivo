@@ -1,0 +1,25 @@
+.blokk{
+    font-family: BLOKKRegular;
+}
+
+body{
+    font: 100% sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: #bababa;
+    
+}
+
+.um{
+    width: 40.8163%;
+    background-color: #d6d6d6;
+    overflow: hidden;
+}
