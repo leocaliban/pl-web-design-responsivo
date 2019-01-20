@@ -5734,29 +5734,92 @@ div.im-account-form {
     min-height: 28em;
   }
 
-  .grid_4 .widget-box-footer{
+  .grid_4 .widget-box-footer {
     min-height: 40em;
   }
 
-  #footer{
+  #footer {
     padding: 2% 0 15% 0;
   }
 
-  #footer .grid_3, #footer .grid_4, #footer .grid_5{
+  #footer .grid_3,
+  #footer .grid_4,
+  #footer .grid_5 {
     float: none;
   }
 
-  #footer .container{
+  #footer .container {
     width: 33%;
     margin: 0 auto;
   }
 
-  .networks li{
+  .networks li {
     margin-bottom: 3em;
     padding-left: 9%;
   }
 
-  .networks li:first-child{
+  .networks li:first-child {
     margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .grid_3 .featured-box {
+    width: 45%;
+    margin: 2% 0;
+  }
+
+  .grid_3 .featured-box:nth-child(2),
+  .grid_3 .featured-box:nth-child(4) {
+    float: right;
+  }
+
+  .grid_3 .new {
+    width: 45%;
+    margin: 2% 0;
+  }
+
+  .grid_3 .new:nth-child(2),
+  .grid_3 .new:nth-child(2) {
+    float: right;
+  }
+
+  #content .container .grid_5,
+  #content .container .grid_5 + .grid_4,
+  #content .container .grid_4 + .grid_3 {
+    float: none;
+  }
+
+  #content .container .grid_4 + .grid_3 figure img {
+    width: 33%;
+  }
+
+  .grid_6 .widget-seven-masters,
+  .grid_6 .widget-intercon {
+    width: 100%;
+  }
+  .grid_6 .widget-intercon {
+    margin-left: 0;
+  }
+
+  .grid_6 .widget-intercon figure,
+  .grid_6 .widget-seven-masters figure {
+    width: 70%;
+  }
+  .grid_5,
+  .grid_7 {
+    float: none;
+  }
+
+  .grid_7 .grid_4 {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
+  .grid_4 .widget-box-footer{
+    width: 100%;
+    margin: 1em 0 0 0;
+    min-height: 0;
+    padding-bottom: 1em;
   }
 }
