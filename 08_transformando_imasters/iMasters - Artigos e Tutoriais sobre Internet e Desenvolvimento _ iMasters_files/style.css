@@ -185,7 +185,7 @@ del {
   margin-right: 6.6666%;
 }
 
-.widget-imasters-podcast .grid_4 {
+.widget-imasters-podcast ul .grid_4 {
   width: 27.234%;
 }
 .clear {
@@ -5726,5 +5726,37 @@ div.im-account-form {
 
   .brandings-fixes li {
     margin-left: 2.5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .grid_3.featured-box {
+    min-height: 28em;
+  }
+
+  .grid_4 .widget-box-footer{
+    min-height: 40em;
+  }
+
+  #footer{
+    padding: 2% 0 15% 0;
+  }
+
+  #footer .grid_3, #footer .grid_4, #footer .grid_5{
+    float: none;
+  }
+
+  #footer .container{
+    width: 33%;
+    margin: 0 auto;
+  }
+
+  .networks li{
+    margin-bottom: 3em;
+    padding-left: 9%;
+  }
+
+  .networks li:first-child{
+    margin-left: 2%;
   }
 }
