@@ -70,7 +70,7 @@ ul {
 }
 
 body {
-  font-size: 62.5%/1.4 sans-serif;
+  font: 62.5%/1.4 verdana, sans-serif;
 }
 
 .tudo {
@@ -79,14 +79,94 @@ body {
   margin: 0 auto;
 }
 
-header{
-    height: 5.6em;
-    background-color: #030;
-    background-image: url('../images/logo200x46.png'), url('../images/grama85x70.jpg');
-    background-position: center, center;
-    background-repeat: no-repeat, repeat;
+header {
+  height: 5.6em;
+  background-color: #030;
+  background-image: url("../images/logo200x46.png"),
+    url("../images/grama85x70.jpg");
+  background-position: center, center;
+  background-repeat: no-repeat, repeat;
 }
 
-header h1{
-    text-indent: -99999px;
+header h1 {
+  text-indent: -99999px;
+}
+
+/*===========NAV=================*/
+
+.nav {
+  position: relative;
+  z-index: 99999;
+  background-color: #00b7f0;
+  height: 4em;
+  font-weight: bold;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-right: 0.5em;
+  margin-top: 0.7em;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.nav a {
+  padding: 0.5em 1.2em;
+  text-decoration: none;
+  color: #fff;
+}
+.nav a:hover {
+  background: #e2a618;
+  color: #333;
+  border-radius: 0.4em;
+}
+.nav .current a {
+  cursor: default;
+  background: #e2a618;
+  color: #333;
+  border-radius: 0.4em;
+}
+.nav.center ul {
+  text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+  .nav {
+    position: relative;
+    padding-top: 0.3em;
+  }
+  .nav li {
+    background: #00b7f0;
+    display: none;
+    margin: 0;
+  }
+  .nav .current {
+    display: block;
+  }
+  .nav .current a:after {
+    content: "\2630";
+    position: absolute;
+    right: 0.2em;
+    top: 0;
+    font-size: 2em;
+    color: #fff;
+  }
+  .nav a {
+    display: block;
+    padding: 0.5em 0.5em 0.5em 1em;
+    text-align: left;
+  }
+  .nav .current a {
+    width: 5.6em;
+    margin-left: 0.5em;
+  }
+  .nav ul:hover li {
+    border-bottom: 1px solid #aedce9;
+    display: block;
+    margin: 0;
+  }
 }
