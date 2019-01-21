@@ -116,6 +116,19 @@ ins {
 del {
   text-decoration: line-through;
 }
+
+body{
+  overflow-x: hidden;
+}
+
+#wrapper-content {
+  width: 100%!important;;
+}
+
+.container{
+  width: 100%;
+  overflow: hidden;
+}
 .grid_2,
 .grid_3,
 .grid_4,
@@ -5866,4 +5879,19 @@ div.im-account-form {
   .home .brandings-fixes{
     position: static;
   }
+
+  .bar-imasters .container{
+    padding-top: 9.8em;
+    background: none !important;
+  }
+
+  #header .branding{
+    position: absolute;
+    top: 0!important;
+    height: 6em;
+    background: #64a7b7;
+    width: 100%;
+  }
+
+  
 }
