@@ -78,3 +78,15 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+
+header{
+    height: 5.6em;
+    background-color: #030;
+    background-image: url('../images/logo200x46.png'), url('../images/grama85x70.jpg');
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+}
+
+header h1{
+    text-indent: -99999px;
+}
