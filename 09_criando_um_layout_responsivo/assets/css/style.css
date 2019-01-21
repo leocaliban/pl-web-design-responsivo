@@ -68,3 +68,13 @@ ul {
 .cf {
   *zoom: 1;
 }
+
+body {
+  font-size: 62.5%/1.4 sans-serif;
+}
+
+.tudo {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
