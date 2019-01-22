@@ -126,6 +126,45 @@ form{
   background: #aedce9 url('../images/icones.png') -206px no-repeat;
 }
 
+.noticias{
+  margin-top: 1em;
+  padding-top: 1.2em;
+  border-top: 1px solid #00b7f0;
+}
+
+.box{
+  margin: 2em 0;
+  padding: 0 0.2em;
+}
+
+.box figure{
+  margin: 0;
+}
+
+.box h2{
+  margin: 0.2em 0 0.6em 0;
+  font-size: 1.6em;
+}
+
+.box p{
+  font-size: 1.2em;
+  color: #333;
+}
+
+.box a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #555;
+}
+
+.box a:hover{
+  text-decoration: underline;
+}
+
+.box.noti h2{
+  color: #fbb718;
+}
+
 
 /*===========NAV=================*/
 
