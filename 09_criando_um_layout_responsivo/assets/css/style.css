@@ -321,7 +321,7 @@ footer {
     margin-right: 2em;
   }
 
-  .noti figure img{
+  .noti figure img {
     width: 100%;
   }
 }
@@ -360,5 +360,110 @@ footer {
     border-bottom: 1px solid #aedce9;
     display: block;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .tudo {
+    position: relative;
+    background: #ffffff;
+    padding: 0 0.5em;
+    box-shadow: 2px 2px 3px #555555, -2px -2px 3px #555555;
+  }
+
+  header {
+    height: 12em;
+    border-radius: 1em;
+    background-position: 7em, center;
+  }
+
+  nav {
+    border-radius: 1em;
+    margin-top: 0.5em;
+  }
+
+  .social {
+    background: none;
+    position: absolute;
+    right: 7em;
+    top: 0;
+  }
+
+  .busca {
+    width: 22em;
+    height: 3em;
+    position: absolute;
+    right: 9.5em;
+    top: 6em;
+    border-radius: 0.5em;
+  }
+
+  .busca input[type="search"] {
+    background: none;
+    margin-top: 0.3em;
+  }
+
+  .busca input[type="submit"] {
+    height: 30px;
+    margin-top: 0;
+  }
+
+  #ninja-slider {
+    border-radius: 1em;
+    margin-top: 0.5em;
+  }
+
+  .noti {
+    float: left;
+    width: 32%;
+  }
+
+  .noti:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .noti figure {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .noti .texto {
+    float: right;
+  }
+
+  .noti figure img {
+    width: 100%;
+    border-radius: 1em;
+  }
+
+  .informacoes {
+    border-radius: 1em;
+  }
+
+  .info {
+    float: left;
+    width: 32%;
+    padding: 0 1em;
+  }
+
+  .info:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .info h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .info figure img {
+    border-radius: 1em;
+  }
+
+  .copyright {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
 }
