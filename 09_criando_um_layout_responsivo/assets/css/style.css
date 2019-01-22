@@ -92,6 +92,41 @@ header h1 {
   text-indent: -99999px;
 }
 
+form{
+  position: relative;
+}
+
+.busca{
+  width: 100%;
+  height: 4em;
+  text-align: center;
+  background: #aedce9;
+  margin: 0.5em 0;
+}
+
+.busca input[type="search"]{
+  width: 98%;
+  height: 1.5em;
+  color: #346da6;
+  font-size: 1.5em;
+  border: none;
+  margin-top: 0.5em;
+  background: #aedce9;
+}
+
+.busca input[type="submit"]{
+  width: 32px;
+  height: 3em;
+  position: absolute;
+  right: 1.5%;
+  top: 0;
+  text-indent: -99999px;
+  cursor: pointer;
+  border: none;
+  background: #aedce9 url('../images/icones.png') -206px no-repeat;
+}
+
+
 /*===========NAV=================*/
 
 .nav {
