@@ -165,6 +165,20 @@ form{
   color: #fbb718;
 }
 
+.informacoes{
+  background: #aedce9;
+  padding: 1em 0;
+}
+
+.box.info figure{
+  float: left;
+  margin-right: 1em;
+}
+
+.box.info h2{
+  color: #00b7f0;
+}
+
 
 /*===========NAV=================*/
 
