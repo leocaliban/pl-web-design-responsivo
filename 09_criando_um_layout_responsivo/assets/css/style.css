@@ -254,7 +254,7 @@ footer {
   text-decoration: none;
 }
 
-.copyright{
+.copyright {
   background-color: #333333;
   color: #f3f3f3;
 }
@@ -299,6 +299,31 @@ footer {
 }
 .nav.center ul {
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  header {
+    height: 8em;
+    background: url("../images/logo280x65.png"), url("../images/grama85x70.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center, center;
+  }
+
+  .busca {
+    width: 80%;
+    height: 4em;
+    margin: 0.5em auto;
+  }
+
+  .noti figure {
+    float: left;
+    width: 25%;
+    margin-right: 2em;
+  }
+
+  .noti figure img{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 680px) {
